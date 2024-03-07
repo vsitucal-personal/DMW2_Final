@@ -82,3 +82,26 @@ def init_jobs():
     merged_df = pd.merge(merged_df, job_skills, on='job_link')
     display(len(merged_df))
     return merged_df
+
+
+METHO = """Comparing Hirability for:
+- base `{}`
+- `{}` plus {} random sampled skills without replacement
+- `{}` plus {} unique skills recommended by fim with highest lift
+"""
+
+
+CASE = """Skillset: {}
+Hirability: {}%
+Jobs available: {}/{}
+Applying in all {} {} jobs, you are likely to get into {}
+"""
+
+
+VALID = """Result:
+- {} % Hirability (base)
+- {} % Hirability (stochastic)
+- {} % Hirability (fim)
+
+Hirability increase better in fim case compared to stochastic case!
+"""
