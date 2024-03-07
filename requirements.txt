@@ -1,0 +1,4 @@
+mlxtend
+ipywidgets
+pandas
+jupyterlab
