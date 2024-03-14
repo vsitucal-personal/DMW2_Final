@@ -2,3 +2,5 @@ mlxtend
 ipywidgets
 pandas
 jupyterlab
+seaborn
+wordcloud
