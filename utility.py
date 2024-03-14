@@ -75,6 +75,7 @@ def check_job_title(i):
 
 
 def init_jobs():
+    """Initialize data coming from csvs"""
     job_summary = pd.read_csv('linkedin_csv/job_summary.csv')
     job_postings = pd.read_csv('linkedin_csv/job_postings.csv')
     job_skills = pd.read_csv('linkedin_csv/job_skills.csv')
