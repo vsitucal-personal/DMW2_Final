@@ -1,4 +1,4 @@
-# DMW2_Final
+# Data Mining and Wrangling 2 - Final Project
 
 ![](images/title.png)
 
